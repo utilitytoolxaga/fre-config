@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated_at": "2026-01-15",
+  "models": {
+    "gemini": "gemini-3-flash",
+    "gemini_fallback": "gemini-2.5-flash"
+  },
+  "limits": {
+    "max_pages": 5,
+    "max_parallel": 5
+  },
+  "message": ""
+}
