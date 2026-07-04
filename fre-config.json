@@ -20,6 +20,6 @@
       "model": "gpt-4o"
     }
   },
-  "limits": { "max_pages": 5, "max_parallel": 5 },
+  "limits": { "max_pages": 10, "max_parallel": 5 },
   "message": ""
 }
