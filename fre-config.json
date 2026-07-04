@@ -1,13 +1,25 @@
 {
   "version": 1,
   "updated_at": "2026-01-15",
-  "models": {
-    "gemini": "gemini-3-flash",
-    "gemini_fallback": "gemini-2.5-flash"
+  "providers": {
+    "gemini": {
+      "enabled": true,
+      "model": "gemini-3-flash",
+      "fallback_model": "gemini-2.5-flash"
+    },
+    "openai": {
+      "enabled": false,
+      "model": "gpt-4o"
+    },
+    "vertex": {
+      "enabled": false,
+      "model": "gemini-3-flash"
+    },
+    "azure": {
+      "enabled": false,
+      "model": "gpt-4o"
+    }
   },
-  "limits": {
-    "max_pages": 5,
-    "max_parallel": 5
-  },
+  "limits": { "max_pages": 5, "max_parallel": 5 },
   "message": ""
 }
